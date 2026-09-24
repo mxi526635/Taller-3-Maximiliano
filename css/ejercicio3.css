@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  background: #fff;
+  padding: 10px 14px;
+}
+
+
+.marcoImagen {
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.marcoImagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.menuSuperior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+.enlacesMenu {
+  font-size: 13px;
+  color: #888;
+}
+
+.enlacesMenu a {
+  color: #1a3fb0;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0 6px;
+}
+
+.cajaBuscador {
+  display: flex;
+  align-items: center;
+  border: 1px solid #888;
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+
+.cajaBuscador input {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #777;
+  width: 90px;
+  order: 2;
+}
+
+.cajaBuscador button {
+  border: none;
+  background: none;
+  color: #777;
+  cursor: pointer;
+  order: 1;
+  font-size: 12px;
+}
+
+
+.cuerpoPagina {
+  display: flex;
+  align-items: flex-start;
+}
+
+.panelGrupo {
+  width: 38%;
+  border: 1px solid #333;
+  padding: 12px;
+  margin-right: 14px;
+}
+
+.panelGrupo legend {
+  font-weight: bold;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.imagenGrande {
+  height: 210px;
+  margin-bottom: 14px;
+}
+
+.panelGrupo p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+
+.panelCentral {
+  width: 40%;
+  margin-right: 14px;
+}
+
+
+.filaCajas {
+  display: flex;
+}
+
+
+.cajaImagen {
+  background: #e8e8e8;
+  height: 95px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.cajaImagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.filaCajas .cajaImagen:first-child {
+  margin-right: 10px;
+}
+
+
+.bloqueDestacado {
+  background: #e8e8e8;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.imagenMedia {
+  height: 200px;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+
+.bloqueDestacado p {
+  line-height: 1.6;
+}
+
+
+.panelLateral {
+  width: 22%;
+}
+
+.miniaturaLateral {
+  height: 84px;
+  margin-bottom: 12px;
+}

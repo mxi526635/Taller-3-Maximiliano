@@ -1,0 +1,245 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #444;
+  background: #fff;
+}
+
+
+.cabeceraPagina {
+  background: #2b3341;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logoKarma {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.logoKarma span {
+  color: #3b8fc4;
+}
+
+.menuPrincipal {
+  display: flex;
+}
+
+.menuPrincipal a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 4px 14px;
+}
+
+
+
+.iconoMenu {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+
+.portadaPrincipal {
+  position: relative;
+  height: 330px;
+  margin: 0 60px;
+  background-color: #6f6f6f;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 26px;
+}
+
+.flechaCarrusel {
+  position: absolute;
+  top: 45%;
+  color: #fff;
+  font-size: 30px;
+  opacity: 0.85;
+}
+
+.flechaCarrusel.flechaIzquierda {
+  left: 14px;
+}
+
+.flechaCarrusel.flechaDerecha {
+  right: 14px;
+}
+
+.leyendaPortada {
+  background: #c9646a;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  padding: 7px 14px;
+  width: 100%;
+}
+
+
+.puntosCarrusel {
+  margin-top: 14px;
+}
+
+.puntosCarrusel span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #cfcfcf;
+  margin: 0 4px;
+}
+
+.puntosCarrusel .puntoActivo {
+  background: #444;
+}
+
+
+.franjaSeccion {
+  display: flex;
+  background: #efefef;
+}
+
+.franjaSeccion.franjaInvertida {
+  flex-direction: row-reverse;
+}
+
+.panelTitulo {
+  width: 40%;
+  min-height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 18px 0;
+}
+
+.panelTitulo.colorAzul {
+  background: #3b8fc4;
+}
+
+.panelTitulo.colorNaranja {
+  background: #ef8f21;
+}
+
+.panelTitulo h2 {
+  color: #fff;
+  font-size: 34px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+
+.contenidoSeccion {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding: 26px 34px;
+}
+
+
+.tarjetaPersona {
+  text-align: center;
+  margin-right: 26px;
+}
+
+.fotoRedonda {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: #cfcfcf;
+  border: 3px solid #fff;
+  margin: 0 auto 8px;
+  object-fit: cover;
+  display: block;
+}
+
+.tarjetaPersona figcaption {
+  font-size: 11px;
+  color: #666;
+}
+
+.tarjetaPersona figcaption span {
+  font-size: 10px;
+  color: #999;
+}
+
+.textosAcercaDe p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 11px;
+}
+
+
+.contenidoEquipo {
+  justify-content: center;
+}
+
+.contenidoEquipo .tarjetaPersona {
+  margin: 0 22px;
+}
+
+
+.contenidoServicios {
+  align-items: flex-start;
+  padding-left: 0;
+}
+
+
+.columnaIconos {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconoServicio {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 19px;
+}
+
+.iconoServicio.colorNaranja {
+  background: #ef8f21;
+}
+
+.iconoServicio.colorOscuro {
+  background: #333a45;
+}
+
+
+.cajaServicio {
+  background: #ef8f21;
+  color: #fff;
+  padding: 14px 18px;
+  flex: 1;
+}
+
+.cajaServicio h3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.cajaServicio p {
+  font-size: 10px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
